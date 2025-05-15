@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+    
+  .logo {
+    width: 120px;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* �낅젰�� - 諛묒쨪 �ㅽ��� */
+  input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-bottom-color: #007bff;
+  }
+  
+  /* 踰꾪듉 �ㅽ��쇱� �좎� */
+  button {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* 留곹겕 諛� �덈궡臾� */
+  .helper-links,
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* 梨� 紐⑥뼇 諛곌꼍 */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* 諛곌꼍留� 梨� 紐⑥뼇�쇰줈 蹂�寃� */
+  .book-background {
+    background-color: #fff;
+    width: 500px;
+    height: 700px;
+    border: 10px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    clip-path: polygon(10% 0%, 90% 0%, 90% 85%, 10% 85%, 0% 100%, 0% 15%, 10% 0%); /* 梨� 紐⑥뼇 */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* �쇰뵒�� 踰꾪듉�� 媛�濡쒕줈 諛곗튂�섎뒗 CSS */
+  .contact-options {
+    display: flex;
+    gap: 20px; /* �쇰뵒�� 踰꾪듉 媛� 媛꾧꺽 */
+    justify-content: flex-start;
+  }
+  
+  .radio-group {
+      display: flex;
+      gap: 20px;
+      margin: 10px 0;
+    }
+    .contact-input {
+      display: none;
+      margin-top: 10px;
+    }
+    .agreement {
+      margin-top: 10px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+        .radio-group {
+      display: flex;
+      gap: 20px;
+      margin: 10px 0;
+    }
+    .contact-input {
+      display: none;
+      margin-top: 10px;
+    }
+
+        .contact-input {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .radio-group {
+      display: flex;
+      gap: 20px;
+      margin: 10px 0;
+    }

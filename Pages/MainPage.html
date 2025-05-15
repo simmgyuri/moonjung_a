@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>문중문고</title>
+  <link rel="stylesheet" href="../Css/Common.css" />
+  <link rel="stylesheet" href="../Css/MainPage.css" />
+</head>
+<body>
+  <div class="main-container">
+    <!-- 상단 바 -->
+    <header class="header">
+      <a class="title" href="/">문중문고</a>
+      <a class="login-btn" href="Login.Pages/login.html">로그인 / 회원가입</a>
+    </header>
+
+    <!-- 검색창 -->
+    <div class="search-bar">
+      <input type="text" placeholder="검색어를 입력하세요" />
+      <button onclick="window.location.href='/search'">검색</button>
+    </div>
+
+    <!-- 상태 버튼 -->
+    <div class="status-buttons">
+      <a href="#" class="notification">
+        <span>현재<br>대출 중<br>📖</span>
+        <span class="badge">3</span>
+      </a>
+      <a href="#" class="notification">
+        <span>현재<br>예약 중<br>⏰</span>
+        <span class="badge">3</span>
+      </a>
+      <a href="#" class="notification">
+        <span>현재<br>연체 중<br>⚠️</span>
+        <span class="badge">5</span>
+      </a>
+    </div>
+
+    <!-- 공지 -->
+    <div class="section-wrapper">
+      <div class="section-header">
+        <span>📢 공지</span>
+        <button class="plus-button" onclick="location.href='Notice.html'">＋</button>      </div>
+      <div class="card large-card">
+        <table class="board-table">
+          <tbody>
+            <tr><td class="title">제목입니다.</td><td>24-01-20</td></tr> 
+            <tr><td class="title">제목입니다.</td><td>24-01-19</td></tr>
+            <tr><td class="title">제목입니다.</td><td>24-01-18</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 아래쪽 영역 -->
+    <div class="bottom-sections">
+      <!-- 큐레이션 -->
+      <div class="section tall">
+        <div class="section-header">
+          <span>👩‍🏫 큐레이션</span>
+          <button class="plus-button" onclick="location.href='Curation.Pages'">＋</button> 
+        </div>
+        <div class="card tall-card">
+          <table class="board-table">
+            <tbody>
+              <tr><td class="title">제목입니다.</td><td>24-01-20</td></tr>
+              <tr><td class="title">제목입니다.</td><td>24-01-19</td></tr>
+              <tr><td class="title">제목입니다.</td><td>24-01-18</td></tr>
+              <tr><td class="title">제목입니다.</td><td>24-01-17</td></tr>
+              <tr><td class="title">제목입니다.</td><td>24-01-16</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <!-- 문중문고 소개 -->
+        <div class="section small">
+          <div class="section-header">
+            <span>📚 문중문고 소개</span>
+            <button class="plus-button">＋</button>
+          </div>
+          <div class="card small-card">
+            <table class="board-table">
+              <tbody>
+                <tr><td class="title">제목입니다.</td><td>24-01-20</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 이용안내 -->
+        <div class="section small">
+          <div class="section-header">
+            <span>ℹ️ 이용안내</span>
+            <button class="plus-button">＋</button>
+          </div>
+          <div class="card small-card">
+            <table class="board-table">
+              <tbody>
+                <tr><td class="title">제목입니다.</td><td>24-01-19</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+      <a class="footerbutton" href="loan.html">대출/반납</a>
+      <a class="footerbutton" href="MainPage.html">Home</a>
+      <a class="footerbutton" href="../Pages/MyPage.Pages/mypage.html">마이페이지</a>
+    </footer>
+  </div>
+</body>
+</html>
