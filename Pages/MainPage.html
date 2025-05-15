@@ -18,20 +18,20 @@
     <!-- 검색창 -->
     <div class="search-bar">
       <input type="text" placeholder="검색어를 입력하세요" />
-      <button onclick="window.location.href='/search'">검색</button>
+      <button onclick="window.location.href='SearchPage.html'">검색</button>
     </div>
 
     <!-- 상태 버튼 -->
     <div class="status-buttons">
-      <a href="#" class="notification">
+      <a href="../Pages/MyPage.Pages/mypage.html" class="notification">
         <span>현재<br>대출 중<br>📖</span>
         <span class="badge">3</span>
       </a>
-      <a href="#" class="notification">
+      <a href="../Pages/MyPage.Pages/mypage.html" class="notification">
         <span>현재<br>예약 중<br>⏰</span>
         <span class="badge">3</span>
       </a>
-      <a href="#" class="notification">
+      <a href="../Pages/MyPage.Pages/mypage.html" class="notification">
         <span>현재<br>연체 중<br>⚠️</span>
         <span class="badge">5</span>
       </a>
@@ -41,7 +41,8 @@
     <div class="section-wrapper">
       <div class="section-header">
         <span>📢 공지</span>
-        <button class="plus-button" onclick="location.href='Notice.html'">＋</button>      </div>
+        <a class="plus-button" href="Notice.html">＋</a>
+      </div>
       <div class="card large-card">
         <table class="board-table">
           <tbody>
@@ -59,7 +60,7 @@
       <div class="section tall">
         <div class="section-header">
           <span>👩‍🏫 큐레이션</span>
-          <button class="plus-button" onclick="location.href='Curation.Pages'">＋</button> 
+          <a class="plus-button" href="../Pages/Curation.Pages/Curation.html">＋</a>
         </div>
         <div class="card tall-card">
           <table class="board-table">
@@ -79,7 +80,7 @@
         <div class="section small">
           <div class="section-header">
             <span>📚 문중문고 소개</span>
-            <button class="plus-button">＋</button>
+            <a class="plus-button" href="GuidePage.html">＋</a>
           </div>
           <div class="card small-card">
             <table class="board-table">
@@ -94,7 +95,7 @@
         <div class="section small">
           <div class="section-header">
             <span>ℹ️ 이용안내</span>
-            <button class="plus-button">＋</button>
+            <a class="plus-button" href="GuidePage.html">＋</a>
           </div>
           <div class="card small-card">
             <table class="board-table">
@@ -107,12 +108,21 @@
       </div>
     </div>
 
-    <!-- 푸터 -->
-    <footer class="footer">
-      <a class="footerbutton" href="loan.html">대출/반납</a>
-      <a class="footerbutton" href="MainPage.html">Home</a>
-      <a class="footerbutton" href="../Pages/MyPage.Pages/mypage.html">마이페이지</a>
-    </footer>
+<footer class="bottom-nav">
+  <a class="nav-item" href="loan.html">
+    <img src="../Images/navigation1.png" alt="대출반납 아이콘" />
+    <span>대출·반납</span>
+  </a>
+  <a class="nav-item" href="MainPage.html">
+    <img src="../Images/navigation2.png" alt="문중문고 아이콘" />
+    <span>문중문고</span>
+  </a>
+  <a class="nav-item" href="../Pages/MyPage.Pages/mypage.html">
+    <img src="../Images/navigation3.png" alt="마이페이지 아이콘" />
+    <span>마이페이지</span>
+  </a>
+</footer>
+
   </div>
 </body>
 </html>
